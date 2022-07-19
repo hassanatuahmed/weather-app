@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_incidents"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="ifRoom"
+        android:menuCategory="secondary"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_tasks"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:showAsAction="ifRoom"
+        android:menuCategory="secondary"
+        android:title="text" />
+
+    <item
+        android:id="@+id/nav_surveys"
+        android:icon="@drawable/ic_baseline_chat_24"
+        app:showAsAction="ifRoom"
+        android:menuCategory="secondary"
+        android:title="text" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"
+        android:menuCategory="secondary"
+        android:title="Setting" />
+
+</menu>
